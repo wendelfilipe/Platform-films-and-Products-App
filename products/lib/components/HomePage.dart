@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:products/components/Home.dart';
+import 'package:products/components/LoginPage.dart';
 import 'package:products/components/Notifications.dart';
 import 'package:products/components/ProductsPage.dart';
 import 'package:products/main.dart';
@@ -96,40 +97,215 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-                Container(
-                    color: Colors.white,
+                ListTile(
+                  title: Container(
+                      color: Colors.white,
+                      padding: const EdgeInsets.all(16),
+                      child: Row(
+                        children: [
+                          const CircleAvatar(
+                            backgroundImage: AssetImage('lib/assets/images/bill.jpeg'),
+                            radius: 30
+                          ),
+                          const SizedBox(width: 16),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Text(
+                                userName ?? "Nome aqui",
+                                style: const TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.bold
+                                ),
+                              ),
+                              Text(
+                                userEmail ?? "Email aqui",
+                                style: const TextStyle(
+                                  fontSize: 14
+                                ),
+                              )
+                            ],
+                          )
+                        ]),
+                  ),
+                  onTap: (){Navigator.of(context).pop();},
+                ),
+                ListTile(
+                  title:  Container(
                     padding: const EdgeInsets.all(16),
-                    child: Row(
-                      children: [
-                        const CircleAvatar(
-                          backgroundImage: AssetImage('lib/assets/images/bill.jpeg'),
-                          radius: 30
-                        ),
-                        const SizedBox(width: 16),
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                    child: const Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Row(
                           children: <Widget>[
-                            Text(
-                              userName ?? "",
-                              style: const TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold
-                              ),
-                            ),
-                            Text(
-                              userEmail ?? "",
-                              style: const TextStyle(
-                                fontSize: 14
-                              ),
+                            Icon(Icons.settings),
+                            SizedBox(width: 16,),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                  Text(
+                                    'Configuração',
+                                    style: TextStyle(
+                                      fontSize: 17
+                                    ),
+                                  ),
+                                  Text(
+                                    'Configurações do aplicatico',
+                                    style: TextStyle(
+                                      fontSize: 13
+                                    ),
+                                  )
+                              ],
                             )
                           ],
                         )
-                      ]),
+                      ],
+                    ),
+                  ),
+                  onTap: (){Navigator.of(context).pop();},
                 ),
-                ListTile(
-                  leading: const Icon(Icons.settings),
-                  title: const Text('Configuração'),
-                  onTap: () {Navigator.pop(context);},
+                 ListTile(
+                  title:  Container(
+                    padding: const EdgeInsets.all(16),
+                    child: const Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Row(
+                          children: <Widget>[
+                            Icon(Icons.credit_card),
+                            SizedBox(width: 16,),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                  Text(
+                                    'Forma de Pagamento',
+                                    style: TextStyle(
+                                      fontSize: 17
+                                    ),
+                                  ),
+                                  Text(
+                                    'Minhas formas de pagamento',
+                                    style: TextStyle(
+                                      fontSize: 13
+                                    ),
+                                  )
+                              ],
+                            )
+                          ],
+                        )
+                      ],
+                    ),
+                  ),
+                  onTap: (){Navigator.of(context).pop();},
+                ),
+                 ListTile(
+                  title:  Container(
+                    padding: const EdgeInsets.all(16),
+                    child: const Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Row(
+                          children: <Widget>[
+                            Icon(Icons.discount),
+                            SizedBox(width: 16,),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                  Text(
+                                    'Cupons',
+                                    style: TextStyle(
+                                      fontSize: 17
+                                    ),
+                                  ),
+                                  Text(
+                                    'Meus cupons de desconto',
+                                    style: TextStyle(
+                                      fontSize: 13
+                                    ),
+                                  )
+                              ],
+                            )
+                          ],
+                        )
+                      ],
+                    ),
+                  ),
+                  onTap: (){Navigator.of(context).pop();},
+                ),
+                 ListTile(
+                  title:  Container(
+                    padding: const EdgeInsets.all(16),
+                    child: const Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Row(
+                          children: <Widget>[
+                            Icon(Icons.favorite),
+                            SizedBox(width: 16,),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                  Text(
+                                    'Favoritos',
+                                    style: TextStyle(
+                                      fontSize: 17
+                                    ),
+                                  ),
+                                  Text(
+                                    'Meus produtos favoritos',
+                                    style: TextStyle(
+                                      fontSize: 13
+                                    ),
+                                  )
+                              ],
+                            )
+                          ],
+                        )
+                      ],
+                    ),
+                  ),
+                  onTap: (){Navigator.of(context).pop();},
+                ),
+                 ListTile(
+                  title:  Container(
+                    padding: const EdgeInsets.all(16),
+                    child: const Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Row(
+                          children: <Widget>[
+                            Icon(Icons.logout),
+                            SizedBox(width: 16,),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                  Text(
+                                    'Sair da conta',
+                                    style: TextStyle(
+                                      fontSize: 17
+                                    ),
+                                  ),
+                                  Text(
+                                    'Sair da minha conta',
+                                    style: TextStyle(
+                                      fontSize: 13
+                                    ),
+                                  )
+                              ],
+                            )
+                          ],
+                        )
+                      ],
+                    ),
+                  ),
+                  onTap: (){
+                    if(mounted){
+                       Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const LoginPage())
+                    );
+                    }
+                  },
                 ),
               ],
             ),
