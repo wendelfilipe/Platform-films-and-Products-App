@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain.Test/Teste.Domain.Test.csproj": {}
+  },
+  "projects": {
+    "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain.Test/Teste.Domain.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain.Test/Teste.Domain.Test.csproj",
+        "projectName": "Teste.Domain.Test",
+        "projectPath": "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain.Test/Teste.Domain.Test.csproj",
+        "packagesPath": "/home/wendel/.nuget/packages/",
+        "outputPath": "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wendel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain/Teste.Domain.csproj": {
+                "projectPath": "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain/Teste.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.10.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/wendel/.dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain/Teste.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain/Teste.Domain.csproj",
+        "projectName": "Teste.Domain",
+        "projectPath": "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain/Teste.Domain.csproj",
+        "packagesPath": "/home/wendel/.nuget/packages/",
+        "outputPath": "/home/wendel/Documentos/Platform-Films/backend/Teste.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wendel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/wendel/.dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
