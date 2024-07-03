@@ -36,3 +36,4 @@
 /home/wendel/Documentos/Platform-Films/backend/Teste.Infra.Ioc/obj/Debug/net8.0/refint/Teste.Infra.Ioc.dll
 /home/wendel/Documentos/Platform-Films/backend/Teste.Infra.Ioc/obj/Debug/net8.0/Teste.Infra.Ioc.pdb
 /home/wendel/Documentos/Platform-Films/backend/Teste.Infra.Ioc/obj/Debug/net8.0/ref/Teste.Infra.Ioc.dll
+/home/wendel/Documentos/Platform-Films/backend/Teste.Infra.Ioc/obj/Debug/net8.0/Teste.Infra.Ioc.sourcelink.json

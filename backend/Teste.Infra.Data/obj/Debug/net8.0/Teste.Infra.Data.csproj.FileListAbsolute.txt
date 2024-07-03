@@ -32,3 +32,4 @@
 /home/wendel/Documentos/Platform-Films/backend/Teste.Infra.Data/obj/Debug/net8.0/Teste.Infra.Data.pdb
 /home/wendel/Documentos/Platform-Films/backend/Teste.Infra.Data/obj/Debug/net8.0/Teste.Infra.Data.genruntimeconfig.cache
 /home/wendel/Documentos/Platform-Films/backend/Teste.Infra.Data/obj/Debug/net8.0/ref/Teste.Infra.Data.dll
+/home/wendel/Documentos/Platform-Films/backend/Teste.Infra.Data/obj/Debug/net8.0/Teste.Infra.Data.sourcelink.json

@@ -232,3 +232,4 @@
 /home/wendel/Documentos/Platform-Films/backend/Teste.API/obj/Debug/net8.0/Teste.API.pdb
 /home/wendel/Documentos/Platform-Films/backend/Teste.API/obj/Debug/net8.0/Teste.API.genruntimeconfig.cache
 /home/wendel/Documentos/Platform-Films/backend/Teste.API/obj/Debug/net8.0/ref/Teste.API.dll
+/home/wendel/Documentos/Platform-Films/backend/Teste.API/obj/Debug/net8.0/Teste.API.sourcelink.json

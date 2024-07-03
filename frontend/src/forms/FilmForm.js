@@ -18,8 +18,11 @@ const Filmform = (props) => {
     let comment = props.commentPassed;
     let image = props.imagePassed;
 
-    name = props.namePassed;
-    date = props.datePassed;
+    if(name == null)
+        name = props.namePassed;
+
+    if(date == null)
+        date = props.datePassed;
     
     if(classification == null)
         classification = props.classificationPassed;
@@ -45,6 +48,7 @@ const Filmform = (props) => {
     const closeUpdateModal = () =>{
         setShowUpdate(false);
         setGender(null);
+        window.location.reload();
     } 
 
     const showUpdateModal = () => setShowUpdate(true);
